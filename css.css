@@ -1,1 +1,91 @@
-sss
+body {
+    background-color: #f5f7fa;
+    font-family: Inter, sans-serif;
+    color: #151515;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    min-height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.page-wrapper {
+    overflow: hidden;
+}
+#Intro {
+    overflow: hidden;
+    padding-top: 120px;
+    background-color: #40b2b5;
+}
+
+#profileBox {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3vw;
+    padding-bottom: 24px;
+}
+#profileInfo {
+    position: relative;
+    display: flex;
+    width: 96%;
+    max-width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+#profileIMG {
+    position: relative;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bubble {
+    position: absolute;
+    z-index: 3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 24px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 15px 40px 0 rgb(0 0 0 / 15%);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.bubble._1 {
+    left: 12%;
+    top: 4%;
+    padding: 28px 44px;
+    font-size: 28px;
+    line-height: 36px;
+}
+.bubble._2 {
+    left: 2%;
+    top: 43%;
+    padding: 20px 36px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.bubble._3 {
+    left: 18%;
+    bottom: 2%;
+    width: 128px;
+    height: 128px;
+    padding: 8px;
+}
